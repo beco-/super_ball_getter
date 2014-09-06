@@ -143,8 +143,7 @@ public class GameSystemScript: MonoBehaviour {
 	}
 
 
-	void DisplayPoint()
-	{
+	void DisplayPoint(){
 		GameObject obj = GameObject.Find("GetCountText");
 
 		if(superballCounter < 10){
@@ -156,13 +155,11 @@ public class GameSystemScript: MonoBehaviour {
 	}
 
 
-	void ResetTime()
-	{
+	void ResetTime(){
 		timeCounter = startTime;
 	}
 
-	void CountTime()
-	{
+	void CountTime(){
 		if(timePaused == true){
 			return;
 		}
@@ -175,8 +172,7 @@ public class GameSystemScript: MonoBehaviour {
 		}
 	}
 
-	void DisplayTime()
-	{
+	void DisplayTime(){
 		GameObject obj = GameObject.Find("TimeLimitText");
 
 		if(timeCounter < 10){
@@ -188,8 +184,7 @@ public class GameSystemScript: MonoBehaviour {
 
 	}
 
-	void DisplayTotalScore()
-	{
+	void DisplayTotalScore(){
 		totalScore = (superballCounter * 500);
 
 		if(step == STEP.GOAL){
