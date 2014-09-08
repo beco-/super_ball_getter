@@ -1,4 +1,4 @@
-DeletePanelScript.cs	接触後少し経つとオブジェクトが消える
+DeletePanelScript.cs	接触後少し経つとオブジェクトが消える処理
 GameSystemScript.cs	ゲーム本編の根幹となるメインスクリプト
 GetSuperBallScript.cs	スーパーボールを取ったときの処理
 PlaySoundScript.cs	ゲーム本編での音再生一括管理
