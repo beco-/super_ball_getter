@@ -203,7 +203,7 @@ public class GameSystemScript: MonoBehaviour {
 		if(textTimer < 1.0f){
 			pushEnterKeyText.guiText.text = "Push Enter Key";
 		}
-		else if(textTimer >= 1.0){
+		else if(textTimer >= 1.0f){
 			pushEnterKeyText.guiText.text = null;
 			
 			if(textTimer >= 1.5f){
