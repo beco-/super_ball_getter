@@ -1,0 +1,10 @@
+DeletePanelScript.cs	接触後少し経つとオブジェクトが消える
+GameSystemScript.cs	ゲーム本編の根幹となるメインスクリプト
+GetSuperBallScript.cs	スーパーボールを取ったときの処理
+PlaySoundScript.cs	ゲーム本編での音再生一括管理
+RotatePanelScript.cs	オブジェクトを回転させる処理
+TitleScript.cs		タイトル画面処理一括管理
+TouchDeathZoneScript.cs	落下時の処理
+TranslatePlateScript.cs	オブジェクトの往復移動処理
+
+以上のスクリプトは、全てbeco-による。
