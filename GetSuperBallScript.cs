@@ -16,18 +16,18 @@ public class GetSuperBallScript : MonoBehaviour {
 
 	void OnTriggerEnter(Collider collider){
 		GameObject obj = GameObject.Find("GameSystemBox");
-		GameSystemScript gamesystemscript = (GameSystemScript)(obj.GetComponent("GameSystemScript"));
+		GameSystemScript gameSystemScript = (GameSystemScript)(obj.GetComponent("GameSystemScript"));
 
 		if(collider.gameObject.name == ("unitychan")){
 			// Delete gotten SuperBall.
 			Destroy(gameObject);
 			
 			if(gameObject.name == ("SuperBallGoal")){
-				gamesystemscript.superballCounter += 10;
-				gamesystemscript.step = GameSystemScript.STEP.GOAL;
+				gameSystemScript.superballCounter += 10;
+				gameSystemScript.step = GameSystemScript.STEP.GOAL;
 			}
 			else{
-				gamesystemscript.superballCounter++;
+				gameSystemScript.superballCounter++;
 			}
 		}
 	}
