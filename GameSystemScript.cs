@@ -110,8 +110,8 @@ public class GameSystemScript: MonoBehaviour {
 				
 				startText.guiText.text = null; // Not leave startText.
 				
-				GameObject gameoverText = GameObject.Find("GameOverText");
-				gameoverText.guiText.text = "Game Over";
+				GameObject gameOverText = GameObject.Find("GameOverText");
+				gameOverText.guiText.text = "Game Over";
 				DisplayTotalScore();
 				
 				DisplayPushEnterKey();
@@ -124,8 +124,8 @@ public class GameSystemScript: MonoBehaviour {
 				moveUnitychan.enabled = false;
 				anim.SetBool("Lose", true);
 				
-				GameObject timeoverText = GameObject.Find("TimeOverText");
-				timeoverText.guiText.text = "Time Over";
+				GameObject timeOverText = GameObject.Find("TimeOverText");
+				timeOverText.guiText.text = "Time Over";
 				DisplayTotalScore();
 				
 				DisplayPushEnterKey();
