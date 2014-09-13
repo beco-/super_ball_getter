@@ -16,4 +16,4 @@ http://beco-tan.jp/game/super_ball_getter_web/super_ball_getter_web.html
 
 
 ＜本ゲームの開発ブログ＞
-http://unity-beginner.seesaa.net/
+http://unity-beginner.seesaa.net
