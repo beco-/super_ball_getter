@@ -8,3 +8,12 @@ TouchDeathZoneScript.cs	落下時の処理
 TranslatePlateScript.cs	オブジェクトの往復移動処理
 
 以上のスクリプトは、全てbeco-による。
+
+
+
+＜”SUPER BALL GETTER!!”ゲームはこちら＞
+http://beco-tan.jp/game/super_ball_getter_web/super_ball_getter_web.html
+
+
+＜本ゲームの開発ブログ＞
+http://unity-beginner.seesaa.net/
